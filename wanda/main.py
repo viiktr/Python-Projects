@@ -14,13 +14,13 @@ import time
 
 (print("Welcome to the magical teapot!"))
 time.sleep(2)
-(print("Think of a question..."))
-time.sleep(3)
 
 while True:
     answer = random.randint(1, 5)
+    (print("Think of a question..."))
+    time.sleep(3)
     (print("Hmmm, the answer to your question is..."))
-    time.sleep(2)
+    time.sleep(4)
     if answer == 1:
         print("The Teapot says... Yes✅")
     elif answer == 2:
